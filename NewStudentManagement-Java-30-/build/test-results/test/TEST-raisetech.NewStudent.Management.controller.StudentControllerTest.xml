@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="raisetech.NewStudent.Management.controller.StudentControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-09-06T08:30:43.995Z" hostname="MAEDA" time="0.238">
+  <properties/>
+  <testcase name="受講生詳細の一覧検索テスト" classname="raisetech.NewStudent.Management.controller.StudentControllerTest" time="0.238"/>
+  <system-out><![CDATA[17:30:40.887 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [raisetech.NewStudent.Management.controller.StudentControllerTest]: StudentControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:30:41.118 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration raisetech.NewStudent.Management.Application for test class raisetech.NewStudent.Management.controller.StudentControllerTest
+17:30:41.223 [Test worker] INFO org.hibernate.validator.internal.util.Version -- HV000001: Hibernate Validator 8.0.2.Final
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.0)
+
+2025-09-06T17:30:41.814+09:00  INFO 13048 --- [NewStudent.Management] [    Test worker] r.N.M.controller.StudentControllerTest   : Starting StudentControllerTest using Java 21.0.6 with PID 13048 (started by 前田 in C:\Users\前田\IdeaProjects\NewStudentManagement-Java-30-)
+2025-09-06T17:30:41.816+09:00  INFO 13048 --- [NewStudent.Management] [    Test worker] r.N.M.controller.StudentControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2025-09-06T17:30:43.944+09:00  INFO 13048 --- [NewStudent.Management] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06T17:30:43.944+09:00  INFO 13048 --- [NewStudent.Management] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06T17:30:43.948+09:00  INFO 13048 --- [NewStudent.Management] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-09-06T17:30:43.981+09:00  INFO 13048 --- [NewStudent.Management] [    Test worker] r.N.M.controller.StudentControllerTest   : Started StudentControllerTest in 2.569 seconds (process running for 4.04)
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\Users\?O?c\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.17.5\58f9507f5f28d1d3e7adfb4ec2fe37c29d332c9b\byte-buddy-agent-1.17.5.j)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
